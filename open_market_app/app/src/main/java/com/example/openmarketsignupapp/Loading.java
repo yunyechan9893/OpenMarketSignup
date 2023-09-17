@@ -1,2 +1,14 @@
-package com.example.openmarketsignupapp;public class Loding {
+package com.example.openmarketsignupapp;
+
+import android.os.Bundle;
+
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+
+public class Loading extends AppCompatActivity {
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_loding);
+    }
 }
